@@ -19,7 +19,6 @@ class TestCalc:
     def setup_class(self):
         print("\n========所有用例开始前执行========")
         self.calc = Calculator()
-        # self.datas = read_datas()
 
     def teardown_class(self):
         print("\n========所有用例结束后执行========")
